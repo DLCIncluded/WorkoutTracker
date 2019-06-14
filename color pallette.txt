@@ -1,0 +1,24 @@
+
+
+
+
+/* Color Theme Swatches in Hex */
+.LUMINOUS-SIGNALS-–-Chapter-1-(The-Day-It-Started)-1-hex { color: #BF95AC; }
+.LUMINOUS-SIGNALS-–-Chapter-1-(The-Day-It-Started)-2-hex { color: #2976A6; }
+.LUMINOUS-SIGNALS-–-Chapter-1-(The-Day-It-Started)-3-hex { color: #012E40; }
+.LUMINOUS-SIGNALS-–-Chapter-1-(The-Day-It-Started)-4-hex { color: #011C26; }
+.LUMINOUS-SIGNALS-–-Chapter-1-(The-Day-It-Started)-5-hex { color: #175973; }
+
+/* Color Theme Swatches in RGBA */
+.LUMINOUS-SIGNALS-–-Chapter-1-(The-Day-It-Started)-1-rgba { color: rgba(191, 149, 172, 1); }
+.LUMINOUS-SIGNALS-–-Chapter-1-(The-Day-It-Started)-2-rgba { color: rgba(41, 118, 165, 1); }
+.LUMINOUS-SIGNALS-–-Chapter-1-(The-Day-It-Started)-3-rgba { color: rgba(1, 46, 63, 1); }
+.LUMINOUS-SIGNALS-–-Chapter-1-(The-Day-It-Started)-4-rgba { color: rgba(0, 27, 38, 1); }
+.LUMINOUS-SIGNALS-–-Chapter-1-(The-Day-It-Started)-5-rgba { color: rgba(22, 88, 114, 1); }
+
+/* Color Theme Swatches in HSLA */
+.LUMINOUS-SIGNALS-–-Chapter-1-(The-Day-It-Started)-1-hsla { color: hsla(326, 24, 66, 1); }
+.LUMINOUS-SIGNALS-–-Chapter-1-(The-Day-It-Started)-2-hsla { color: hsla(202, 60, 40, 1); }
+.LUMINOUS-SIGNALS-–-Chapter-1-(The-Day-It-Started)-3-hsla { color: hsla(196, 96, 12, 1); }
+.LUMINOUS-SIGNALS-–-Chapter-1-(The-Day-It-Started)-4-hsla { color: hsla(196, 96, 7, 1); }
+.LUMINOUS-SIGNALS-–-Chapter-1-(The-Day-It-Started)-5-hsla { color: hsla(196, 66, 27, 1); }

@@ -1,3 +1,5 @@
+includes/dbConn.php
+
 # Logs
 logs
 *.log
