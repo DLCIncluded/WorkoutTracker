@@ -1,0 +1,32 @@
+.header {
+    width:100%;
+    background-color: $color-secondary-light;
+    display:flex;
+    justify-content: space-between;
+}
+
+.top-nav {
+
+}
+
+.user-nav {
+    display: flex;
+    justify-content: flex-end;
+
+    list-style: none;
+
+    &__item {
+
+        &:first-child {
+            border-left:1px solid $color-grey-dark-1;
+        }
+        &:not(:last-child) {
+            border-right:1px solid $color-grey-dark-1;
+        }
+    }
+
+    &__link {
+        display:inline-block;
+        padding: 2rem 3rem;
+    }
+}

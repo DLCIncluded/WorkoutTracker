@@ -1,0 +1,17 @@
+*,
+*::after,
+*::before {
+    margin:0;
+    padding:0;
+    box-sizing: inherit;
+}
+
+html {
+    /*font-size:10px; set to 10px because that makes 1rem = 10px so 1.5rem = 15px; */
+    font-size: 62.5% /* Default font-size is 16px, this % gives us a 10px font-size to make calculations easier for using rem */
+}
+
+body {
+    box-sizing: border-box;
+    background-color: $color-secondary-dark;
+}
