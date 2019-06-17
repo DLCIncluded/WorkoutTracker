@@ -3,30 +3,61 @@
     background-color: $color-secondary-light;
     display:flex;
     justify-content: space-between;
+    flex: 0 0 50%;
+    box-shadow: 0 .5rem 1.5rem rgba($color-primary, .2);
 }
 
-.top-nav {
+.logo-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 3rem;
 
+    &__logo {
+        width: 3rem;
+        height: 3rem;
+        fill:$color-default-font;
+    }
+
+    &__header {
+        margin-left: .5rem;
+        font-size: 3rem;
+        font-family: $default-font-family-2;
+    }
 }
 
 .user-nav {
-    display: flex;
-    justify-content: flex-end;
 
-    list-style: none;
+    &__list {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        height:100%;
+        list-style: none;
+    }
 
     &__item {
-
-        &:first-child {
-            border-left:1px solid $color-grey-dark-1;
-        }
-        &:not(:last-child) {
-            border-right:1px solid $color-grey-dark-1;
-        }
+        margin-right:2rem;   
     }
 
     &__link {
+        height:100%;
         display:inline-block;
-        padding: 2rem 3rem;
+        padding: .5rem 1rem;
+        &:hover {
+            background-color: $color-primary-dark;
+            & > * { // set icon fill on hover of link
+                fill: $color-primary-2;
+                -webkit-filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .7));
+                filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .7));
+            }
+            
+        }
+    }
+
+    &__icon {
+        width: 4rem;
+        height: 4rem;
+        fill: $color-primary;
     }
 }

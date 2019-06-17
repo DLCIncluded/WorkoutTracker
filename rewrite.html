@@ -6,21 +6,43 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
         <title>Workout Tracker</title>
+        <link href="https://fonts.googleapis.com/css?family=Carter+One|Covered+By+Your+Grace|Days+One&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/style.css">
+
     </head>
 <body>
 
     <header class="header">
         <div class="logo-box">
-            <div class="logo-box__logo">Logo</div>
+            <svg class="logo-box__logo">
+                <use xlink:href="img/sprite.svg#icon-zap"></use>
+            </svg>
+            <h2 class="logo-box__header">DLCIncluded's Workout Tracker</h2>
+            
         </div>
 
-        <nav class="top-nav">
-            <ul class="user-nav">
-                <li class="user-nav__item"><a href="#" class="user-nav__link">Login</a></li>
-                <li class="user-nav__item"><a href="#" class="user-nav__link">Profile</a></li>
-                <li class="user-nav__item"><a href="#" class="user-nav__link">Edit</a></li>
-                <li class="user-nav__item"><a href="#" class="user-nav__link">Home</a></li>
+        <nav class="user-nav">
+            <ul class="user-nav__list">
+                <li class="user-nav__item"><a href="#" class="user-nav__link">
+                    <svg class="user-nav__icon">
+                        <use xlink:href="img/sprite.svg#icon-log-in"></use>
+                    </svg>
+                </a></li>
+                <li class="user-nav__item"><a href="#" class="user-nav__link">
+                    <svg class="user-nav__icon">
+                        <use xlink:href="img/sprite.svg#icon-user"></use>
+                    </svg>                    
+                </a></li>
+                <li class="user-nav__item"><a href="#" class="user-nav__link">
+                    <svg class="user-nav__icon">
+                        <use xlink:href="img/sprite.svg#icon-edit"></use>
+                    </svg>
+                </a></li>
+                <li class="user-nav__item"><a href="#" class="user-nav__link">
+                    <svg class="user-nav__icon">
+                        <use xlink:href="img/sprite.svg#icon-home"></use>
+                    </svg>
+                </a></li>
             </ul>
         </nav>
     </header>
@@ -28,8 +50,33 @@
     <main class="content">
 
         <div class="workout-box">
-            Workout Box
+            <ul class="workout-box__list">
+                <li class="workout-box__item">Dumbell FLy</li>
+                <li class="workout-box__item">Sets: 3 X Reps: 10-12 X Reps: 10-12 @ Weight: 35</li>
+                <li class="workout-box__item">Incline Dumbbell Press</li>
+                <li class="workout-box__item">Sets: 3 X Reps: 10-12 X Reps: 10-12 @ Weight: 70</li>
+                <li class="workout-box__item">Pec Deck</li>
+                <li class="workout-box__item">Sets: 3 X Reps: 12-15 X Reps: 12-15 @ Weight: 0</li>
+            </ul>
+
+            <div class="workout-box__controls">
+
+                <a href="#" class="workout-box__link">
+                    <svg class="workout-box__icon">
+                        <use xlink:href="img/sprite.svg#icon-plus-circle"></use>
+                    </svg>
+                </a>
+
+                <a href="#" class="workout-box__link">
+                    <svg class="workout-box__icon">
+                        <use xlink:href="img/sprite.svg#icon-edit"></use>
+                    </svg>
+                </a>
+
+                
+            </div>
         </div>
+
 
     </main>
 
