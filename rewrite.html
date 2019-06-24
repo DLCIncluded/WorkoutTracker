@@ -7,6 +7,7 @@
 
         <title>Workout Tracker</title>
         <link href="https://fonts.googleapis.com/css?family=Carter+One|Covered+By+Your+Grace|Days+One&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Saira+Semi+Condensed&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/style.css">
 
     </head>
@@ -50,13 +51,14 @@
     <main class="content">
 
         <div class="workout-box">
+            <!--
             <ul class="workout-box__list">
-                <li class="workout-box__item">Dumbell FLy</li>
-                <li class="workout-box__item">Sets: 3 X Reps: 10-12 X Reps: 10-12 @ Weight: 35</li>
+                <li class="workout-box__item">Dumbell Fly</li>
+                <li class="workout-box__item">Sets: 3 X Reps: 10-12 @ Weight: 35</li>
                 <li class="workout-box__item">Incline Dumbbell Press</li>
-                <li class="workout-box__item">Sets: 3 X Reps: 10-12 X Reps: 10-12 @ Weight: 70</li>
+                <li class="workout-box__item">Sets: 3 X Reps: 10-12 @ Weight: 70</li>
                 <li class="workout-box__item">Pec Deck</li>
-                <li class="workout-box__item">Sets: 3 X Reps: 12-15 X Reps: 12-15 @ Weight: 0</li>
+                <li class="workout-box__item">Sets: 3 X Reps: 12-15 @ Weight: 0</li>
             </ul>
 
             <div class="workout-box__controls">
@@ -75,6 +77,44 @@
 
                 
             </div>
+        -->
+
+        <div class="workout-box__current-workout">
+
+            <form action="#" class="workout-box__form">
+
+                <h2>Dumbell Fly</h2>
+                <p class="workout-box__target-reps-label">Target Reps:</p>
+                <div class="workout-box__target-reps-box">
+                    30
+                </div>
+
+                <div class="workout-box__box">
+                    
+                    <span>
+                        <input type="number" name="weight-done" id="weight-done" class="workout-box__form__weight" min="0" max="999" placeholder="--">
+                        <label for="weight-done">Pounds</label> 
+                    </span>
+                    <span id="x">X</span>
+
+                    <span>
+                        <input type="number" name="reps-done" id="reps-done" class="workout-box__form__reps" min="0" max="999" placeholder="--">
+                        <label for="reps-done">Reps</label>
+                    </span>
+                </div>
+
+                <input type="button" value="Save Set &rarr;" class="workout-box__save-btn">
+                 
+
+
+
+
+
+
+
+            </form>
+        </div>
+
         </div>
 
 

@@ -42,7 +42,7 @@ body {
   background-color: #011C26; }
 
 body {
-  font-family: "Days One", sans-serif;
+  font-family: "Saira Semi Condensed", sans-serif;
   font-weight: 400;
   color: #e0fbfc; }
 
@@ -60,19 +60,24 @@ body {
 
 .workout-box {
   position: relative;
-  width: 80%;
+  width: 90%;
   background-color: #175973;
   margin: auto;
   padding: 2rem;
   box-shadow: 0 1rem 2rem rgba(91, 167, 255, 0.2); }
+  @media screen and (max-width: 56.25em) {
+    .workout-box {
+      width: 100%; } }
   .workout-box__list {
     font-size: 2rem;
     list-style-type: none; }
     .workout-box__list :nth-child(odd) {
       margin-top: .8rem;
       color: #c07fa3; }
-  .workout-box__controls :not(:first-child) {
-    margin-left: 2rem; }
+  .workout-box__controls {
+    margin-top: 1.5rem; }
+    .workout-box__controls :not(:first-child) {
+      margin-left: 2rem; }
   .workout-box__icon {
     width: 3rem;
     height: 3rem;
@@ -84,6 +89,36 @@ body {
     fill: #c07fa3;
     -webkit-filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.7));
     filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.7)); }
+  .workout-box__form {
+    position: relative; }
+  .workout-box__box {
+    position: absolute;
+    right: 1rem;
+    top: 0;
+    margin-top: .5rem;
+    display: flex; }
+    .workout-box__box input {
+      display: inline-block;
+      width: 6rem;
+      position: relative;
+      padding: .5rem;
+      font-size: 1.5rem;
+      text-align: center; }
+    .workout-box__box label {
+      position: relative;
+      display: inline-block;
+      width: 6rem;
+      text-align: center; }
+    .workout-box__box span {
+      display: flex;
+      flex-direction: column; }
+    .workout-box__box #x {
+      margin-left: 1rem;
+      margin-right: 1rem;
+      padding-top: 1rem; }
+  .workout-box__save-btn {
+    width: 100%;
+    height: 3rem; }
 
 .header {
   width: 100%;
@@ -92,12 +127,19 @@ body {
   justify-content: space-between;
   flex: 0 0 50%;
   box-shadow: 0 0.5rem 1.5rem rgba(91, 167, 255, 0.2); }
+  @media screen and (max-width: 56.25em) {
+    .header {
+      flex-wrap: wrap;
+      justify-content: center; } }
 
 .logo-box {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-left: 3rem; }
+  @media screen and (max-width: 56.25em) {
+    .logo-box {
+      margin-left: 0; } }
   .logo-box__logo {
     width: 3rem;
     height: 3rem;
@@ -136,3 +178,7 @@ body {
 .content {
   position: relative;
   padding: 3rem; }
+  @media screen and (max-width: 56.25em) {
+    .content {
+      padding: 0;
+      padding-top: 2rem; } }
